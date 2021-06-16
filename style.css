@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+ul li {
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.clearb{ clear: both;}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+nav{
+    background-color: rgba(19, 233, 248, 0.685);
+}
+.logo{
+    float: left;
+    width: 30%;
+  
+}
+.menu{
+    display:flex;
+    width: 70%;
+}
+
+.menu ul{
+    float: right;
+    margin-left: auto;
+}
+.menu ul li{
+    float: left;
+    padding: 10px 20px;
+
+}
+.menu ul li a{
+    color: rgb(19, 17, 17);
+    font-size: 18px;
+}
+.menu ul li:hover{
+    background-color: rgba(45, 194, 77, 0.582);
+    color: white;
+}
+
+.sticky-top {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+    z-index:10 ;
+}
+/* navigation end  */
+
+/* banner part started */
+.banner{
+    background: url(images/redcharlie-vQVWIsIBafA-unsplash\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.banner-overlay{
+    padding: 390px 0;
+    background: rgba(9, 128, 207, 0.589);
+}
+ 
+.banner-con{
+    color: rgb(138, 218, 47);
+    font-size: 30px;
+}
+.banner-con h3{
+    color: rgb(245, 245, 245);
+}
+
+.banner-con button{
+    padding: 15px 30px;
+    border-radius: 40px;
+    color: white;
+    background: turquoise;
+    font-size: 15px;
+}
+/* banner part ended */
+
+/* About Part started */
+
+.about-head ,.gallery-head {
+    background: turquoise;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+.about-pic img{
+    width: 100%;
+}
+.about-pic{
+    width: 48%;
+    float: left;
+    margin-right: 15px;
+}
+
+.about-cont{
+    width: 50%;
+    float: left;
+   
+}
+
+
+
+.about-cont p{
+    font-size: 40px;
+   
+}
+/* About Part ended */
+
+
+/* gallery part started */
+
+.gallery-pic{
+    width: 32%;
+    float: left;
+    position: relative;
+}
+.gallery-pic img{
+    width: 100%;
+}
+
+.midd-pic
+{
+    margin:0 27px;
+}
+.gallery-pic.mid-img {
+    margin: 0px 10px;
+}
+.gly-overlay{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(191, 218, 219, 0.342);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: scaleY(0);
+    transition: 0.5s;
+    
+}
+
+.gly-overlay ul li a {
+    height: 30px;
+    width: 30px;
+    background-color: blue;
+    color: white;
+    display: block;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 30px;
+  }
+
+
+.gallery-pic:hover .gly-overlay{
+    transform: scaleY(1);
+}
+  
+ 
+/* gallery part ended */
+
+
+/* footer part started */
+
+
+footer{
+    
+    color: rgb(0, 0, 0);
+    background-color: rgb(38, 207, 207);
+    margin-top: 25px;
+    margin-bottom: 25px;
+    text-align: center;
+    padding:20px  ;
+}
+/* footer part ended */
+
+
+
+
